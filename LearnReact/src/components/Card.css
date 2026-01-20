@@ -1,0 +1,27 @@
+article{
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px 10px 20px 10px;
+    margin: 5px 0;
+    overflow: hidden;
+    background-color: rgb(117, 117, 117);
+}
+img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+h3,p{
+    color: white;
+    text-align: center;
+    margin: 5px 0;
+}
+p{
+    color: rgb(193,193,193);
+}
+
+span{
+    color: rgb(203, 203, 203);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
