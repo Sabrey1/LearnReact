@@ -8,6 +8,12 @@ import Demo6 from "./Basic/demo6.jsx"
 
 import DemoEv1 from "./event/Demo1.jsx"
 
+import SDemo1 from "./state/demo1.jsx"
+
+import SDemo2 from "./state/Demo2.jsx"
+
+import SDemo3 from "./state/Demo3.jsx"
+
 function App(){
 
    
@@ -43,7 +49,13 @@ function App(){
 
       {/* <Demo6 data={student} /> */}
       
-      <DemoEv1 />
+      {/* <DemoEv1 /> */}
+
+      {/* <SDemo1 /> */}
+
+      {/* <SDemo2 /> */}
+      
+      <SDemo3 />
 
     </div>
   )

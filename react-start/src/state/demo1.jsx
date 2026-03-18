@@ -1,16 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const demo1 = () => {
 
-    var a = 10;
-
+  const [value, setValue] = useState(0);
     const handdleClick = () => {
-        alert("Hello World");
+        setValue(10);
     }
 
   return (
     <div>
-        
+        <button onClick={handdleClick}>Handle click</button>
+        <p>a = {value}</p>
     </div>
   )
 }
