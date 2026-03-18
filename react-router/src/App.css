@@ -182,26 +182,3 @@
     border-right-color: var(--border);
   }
 }
-
-/* Simple app overrides for a modern look */
-body {
-  background: #f6f8fa;
-  color: #222;
-  -webkit-font-smoothing: antialiased;
-}
-
-.card {
-  border-radius: 12px;
-}
-
-.badge.rounded-pill {
-  font-size: 0.75rem;
-}
-
-input.form-control {
-  border-radius: 8px;
-}
-
-.btn-outline-secondary {
-  border-radius: 8px;
-}

@@ -1,16 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+ 
 import App from './App.jsx'
-
-import { Provider } from 'react-redux'
-import {stores} from './store/index.js'
-
+// Import Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+// Import Bootstrap JS (includes Popper)
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Provider store={stores}>
-      <App />
-    </Provider>
+    <App />
   </StrictMode>,
 )

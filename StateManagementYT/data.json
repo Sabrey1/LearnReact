@@ -1,18 +1,25 @@
 {
-    "student": [
-        {
-            "id": 1,
-            "name": "Sabrey",
-            "age": 20,
-            "gender": "Male",
-            "subject": "Maths"
-        },
-        {
-            "id": 2,
-            "name": "Sara",
-            "age": 19,
-            "gender": "Female",
-            "subject": "English"
-        }
-    ]
+  "student": [
+    {
+      "id": "1",
+      "name": "Sabrey",
+      "age": 20,
+      "gender": "Male",
+      "subject": [
+        "Maths",
+        "Physics"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Sara",
+      "age": 19,
+      "gender": "Female",
+      "subject": [
+        "English",
+        "Chemistry"
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
